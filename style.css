@@ -1,0 +1,88 @@
+/*
+Theme Name:     Posty Eleven
+Theme URI:      http: //github.com/andrewrjones/postyeleven
+Description:    Twenty Eleven child theme, influenced by Posterous.
+Author:         Andrew Jones
+Author URI:     http://andrew-jones.com/
+Template:       twentyeleven
+Version:        0.1
+*/
+
+@import url("../twentyeleven/style.css");
+
+
+/* =Global
+----------------------------------------------- */
+
+body, input, textarea {
+  font-family: Arial,Helvetica,sans-serif;
+	color: #424037;
+}
+
+/* Links */
+a {
+	color: #BC7134;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+#site-title a {
+	color: #444;
+}
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active {
+	color: #444;
+}
+.entry-title, .entry-title a {
+  color: #444;
+}
+#site-description {
+	margin: 0 270px 0 0;
+}
+
+/* =Content
+----------------------------------------------- */
+
+.entry-title {
+	color: #444;
+}
+.entry-title,
+.entry-title a {
+	color: #444;
+}
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #999;
+}
+
+/* Comments link */
+.entry-header .comments-link a:hover,
+.entry-header .comments-link a:focus,
+.entry-header .comments-link a:active {
+	background-color: #BC7134;
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+}
+
+.one-column.singular .page .entry-meta .edit-link a {
+  top: 20px;
+}
+
+.singular .hentry {
+  padding: 2em 0 0;
+}
+
+.singular.page .hentry {
+	padding: 2em 0 0;
+}
+
+/* =Comments
+----------------------------------------------- */
+#respond input#submit, #respond input#submit:active {
+	background: #BC7134;
+	color: #eee;
+}
