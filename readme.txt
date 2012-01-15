@@ -20,9 +20,12 @@ The theme is designed to be minimalist. It does this by focusing on just the blo
 
 == Changelog ==
 
+= 0.2 (15-01-2012) =
+* Hide site description on mobile
+
 = 0.1 (05-07-2011) =
 * Initial version
 
 == Copyright ==
 
-Copyright 2011 Andrew Jones (http://andrew-jones.com)
+Copyright 2012 Andrew Jones (http://andrew-jones.com)
