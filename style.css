@@ -87,7 +87,7 @@ a {
 	color: #eee;
 }
 
-/* =iPhone only
+/* =Mobile only
 ----------------------------------------------- */
 @media only screen and (max-device-width: 480px) {
     /* hide site description */
