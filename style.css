@@ -86,3 +86,12 @@ a {
 	background: #BC7134;
 	color: #eee;
 }
+
+/* =iPhone only
+----------------------------------------------- */
+@media only screen and (max-device-width: 480px) {
+    /* hide site description */
+    #site-description {
+	    display:none;
+    }
+}
